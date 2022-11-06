@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 import './Footer.css';
 
 const Footer = () => {
@@ -19,7 +20,10 @@ const Footer = () => {
             </div>
 
             <div className="footer__end">
-                <h4 className="footer__end__phrase">"-When we are no longer able to change a situation, we are challenged to change ourselves.-"</h4>
+                <h4 className="footer__end__phrase">
+                    <FormattedMessage
+                    id="footer.phrase" />
+                </h4>
             </div>
         </div>
     )
