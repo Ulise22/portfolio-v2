@@ -17,7 +17,7 @@ const Home = () => {
                     </h3>
                     <div className="home__info__icons">
                         <a href="https://github.com/Ulise22" target="_Blank" className="home__info__icons__item"><i className="fab fa-github fa-3x" /> </a>
-                        <a href="https://www.linkedin.com/in/ulises-montenegro-295719221/" target="_Blank" className="home__info__icons__item"><i className="fab fa-linkedin fa-3x" /> </a>
+                        <a href="https://www.linkedin.com/in/ulisesmontenegro/" target="_Blank" className="home__info__icons__item"><i className="fab fa-linkedin fa-3x" /> </a>
                         <a href="mailto:ulimontenegro23@gmail.com" className="home__info__icons__item"><i className="fas fa-envelope fa-3x" /> </a>
                         <a href={resume} download="Ulises Montenegro" className="home__info__btn">
                             <FormattedMessage

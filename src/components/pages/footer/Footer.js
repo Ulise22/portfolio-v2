@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer">
             <div className="footer__social">
                 <div className="footer__social__container">
-                    <a href="https://www.linkedin.com/in/ulises-montenegro-295719221/" target="_Blank" className="footer__social__item">
+                    <a href="https://www.linkedin.com/in/ulisesmontenegro/" target="_Blank" className="footer__social__item">
                         <i className="fab fa-linkedin fa-2x" />
                     </a>
                     <a href="https://github.com/Ulise22" target="_Blank" className="footer__social__item">
