@@ -37,7 +37,7 @@ export const data = [
         name: "Atalanta WebPage",
         id: 4,
         image: atalanta,
-        visit: "https://atalanta-web-page-6h4vuemv5-ulise22.vercel.app/",
+        visit: "https://atalanta-web-page.vercel.app/",
         github: "https://github.com/Ulise22/atalanta-v1",
         descEn: "I've made a webpage from the football team Atalanta BC. I used the Wouter API to make a beautiful multi page web full responsive.",
         descEs: "Hice una página web sobre el club de fútbol Atalanta BC. Use la API de Wouter para armar una web multi página."
