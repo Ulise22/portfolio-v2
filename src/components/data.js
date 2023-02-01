@@ -1,5 +1,5 @@
 import adv from './../images/web-images/advice-generator.JPG';
-import todo from './../images/web-images/todo.JPG';
+import eCommerce from './../images/web-images/e-commerce.JPG';
 import weather from './../images/web-images/weather.JPG';
 import atalanta from './../images/web-images/atalanta.JPG';
 import searcher from './../images/web-images/images-searcher.JPG';
@@ -7,23 +7,25 @@ import calculator from './../images/web-images/calculator.JPG'
 
 export const data = [
     {
-        name: "Advice Generator",
+        name: "E-commerce Product Page",
         id: 1,
+        image: eCommerce,
+        visit: "https://e-comerce-product-page.vercel.app/",
+        github: "https://github.com/Ulise22/e-comerce-product-page",
+        descEn: "Made the e-commerce-product-product-page challenge from Frontend Mentor, fully responsive and functional",
+        descEs: "Complete el desafío e-commerce-product-page de Frontend Mentor, completamente funcional y responsiva para dispositivo mobiles."
+    },
+    
+    {
+        name: "Advice Generator",
+        id: 2,
         image: adv,
         visit: "https://advice-generator-app-fawn.vercel.app/",
         github: "https://github.com/Ulise22/advice-generator-app",
         descEn: "Made the Advice-Generator-App Frontend Mentor Challenge fully functional and responsive. Consuming the AdviceSlipt restful API.",
         descEs: "Completé el reto de 'Frontend Mentor' haciendo un Generador de consejos completamente funcional y responsivo para dispositivos móbiles. Todo consumiendo la Api de AdviceSplipt"
     },
-    {
-        name: "To Do App",
-        id: 2,
-        image: todo,
-        visit: "https://to-do-app-alpha-two.vercel.app",
-        github: "https://github.com/Ulise22/ToDo",
-        descEn: "Build from 0 to 1 a functional ToDo App in React. Also i use the Bootstrap framework to make a beauty and fully responsive app.",
-        descEs: "Construí desde 0 una lista de tareas en React. Usando el framework de Bootstrap para hacer una bella app responsiva."
-    },
+    
     {
         name: "Weather App",
         id: 3,
@@ -39,7 +41,7 @@ export const data = [
         image: atalanta,
         visit: "https://atalanta-web-page.vercel.app/",
         github: "https://github.com/Ulise22/atalanta-v1",
-        descEn: "I've made a webpage from the football team Atalanta BC. I used the Wouter API to make a beautiful multi page web full responsive.",
+        descEn: "I've made a webpage from the football team Atalanta BC. I used the Wouter API to make a beautiful multi page web fully responsive.",
         descEs: "Hice una página web sobre el club de fútbol Atalanta BC. Use la API de Wouter para armar una web multi página."
     },
     {
