@@ -7,7 +7,7 @@ export default function App ({ Component, pageProps }) {
     <LangProvider>
       <Head>
         <link rel='icon' href='../components/images/logo.png' />
-        <script src='https://kit.fontawesome.com/baf7279d2c.js' crossorigin='anonymous' />
+        <script src='https://kit.fontawesome.com/baf7279d2c.js' crossOrigin='anonymous' />
         <title>Ulises Montenegro</title>
       </Head>
       <Component {...pageProps} />
