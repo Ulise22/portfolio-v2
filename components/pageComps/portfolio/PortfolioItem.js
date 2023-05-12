@@ -9,7 +9,7 @@ const PortfolioItem = ({ work }) => {
   return (
     <div>
       <div className={styles.portfolioItem}>
-        <Image src={work.image} className={styles.portfolioItem__photo} />
+        <Image src={work.image} className={styles.portfolioItem__photo} alt={work.name} />
         <div className={styles.portfolioItem__container}>
           <h2 className={styles.portfolioItem__title}> {work.name} </h2>
           <div className={styles.portfolioItem__text}>

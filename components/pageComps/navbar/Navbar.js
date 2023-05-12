@@ -30,34 +30,28 @@ const Navbar = () => {
 
         <ul className={menu ? `${styles.navbar__menu} ${styles.active}` : `${styles.navbar__menu}`}>
           <li className={styles.navbar__menu__item}>
-            <a href='/' className={styles.navbar__menu__link}>
-              <Link activeClass='active' to='home' spy smooth duration={500}>
+              <Link className={styles.navbar__menu__link} activeClass='active' to='home' spy smooth duration={500}>
                 <FormattedMessage
                   id='nav.home'
                   defaultMessage='Home'
                 />
               </Link>
-            </a>
           </li>
           <li className={styles.navbar__menu__item}>
-            <a href='/' className={styles.navbar__menu__link}>
-              <Link activeClass='active' to='portfolio' spy smooth duration={500}>
+              <Link className={styles.navbar__menu__link} activeClass='active' to='portfolio' spy smooth duration={500}>
                 <FormattedMessage
                   id='nav.port'
                   defaultMessage='Portfolio'
                 />
               </Link>
-            </a>
           </li>
           <li className={styles.navbar__menu__item}>
-            <a href='/' className={styles.navbar__menu__link}>
-              <Link activeClass='active' to='contact' spy smooth duration={500}>
+              <Link className={styles.navbar__menu__link} activeClass='active' to='contact' spy smooth duration={500}>
                 <FormattedMessage
                   id='nav.contact'
                   defaultMessage='Contact'
                 />
               </Link>
-            </a>
           </li>
           <li className={styles.navbar__menu__item} onClick={toSpanish}>
             <Image src={spain} alt='Spain' className={styles.lang__flag} />

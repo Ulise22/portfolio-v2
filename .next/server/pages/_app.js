@@ -41,8 +41,7 @@ function App({ Component , pageProps  }) {
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("script", {
                         src: "https://kit.fontawesome.com/baf7279d2c.js",
-                        crossOrigin: "anonymous",
-                        async: true
+                        crossOrigin: "anonymous"
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("title", {
                         children: "Ulises Montenegro"
