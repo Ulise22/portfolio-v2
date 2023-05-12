@@ -1,9 +1,9 @@
-import adv from './images/web-images/advice-generator.JPG'
-import eCommerce from './images/web-images/e-commerce.JPG'
-import weather from './images/web-images/weather.JPG'
-import atalanta from './images/web-images/atalanta.JPG'
-import searcher from './images/web-images/images-searcher.JPG'
-import calculator from './images/web-images/calculator.JPG'
+import adv from './images/web-images/advice-generator.jpg'
+import eCommerce from './images/web-images/e-commerce.jpg'
+import weather from './images/web-images/weather.jpg'
+import atalanta from './images/web-images/atalanta.jpg'
+import searcher from './images/web-images/images-searcher.jpg'
+import calculator from './images/web-images/calculator.jpg'
 
 export const data = [
   {
