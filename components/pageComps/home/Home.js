@@ -17,15 +17,15 @@ const Home = () => {
             />
           </h3>
           <div className={styles.home__info__icons}>
-            <a href='https://github.com/Ulise22' target='_Blank' className={styles.home__info__icons__item} rel='noreferrer'><i className='fab fa-github fa-3x' /> </a>
-            <a href='https://www.linkedin.com/in/ulisesmontenegro/' target='_Blank' className={styles.home__info__icons__item} rel='noreferrer'><i className='fab fa-linkedin fa-3x' /> </a>
-            <a href='mailto:ulimontenegro23@gmail.com' className={styles.home__info__icons__item}><i className='fas fa-envelope fa-3x' /> </a>
+            <a href='https://github.com/Ulise22' target='_Blank' className={styles.home__info__icons__item} rel='noreferrer'><i aria-hidden className='fab fa-github fa-3x' /> </a>
+            <a href='https://www.linkedin.com/in/ulisesmontenegro/' target='_Blank' className={styles.home__info__icons__item} rel='noreferrer'><i aria-hidden className='fab fa-linkedin fa-3x' /> </a>
+            <a href='mailto:ulimontenegro23@gmail.com' className={styles.home__info__icons__item}><i aria-hidden className='fas fa-envelope fa-3x' /> </a>
 
           </div>
         </div>
 
         <div className={styles.home__photo}>
-          <Image src={logo} alt='Ulises Montenegro' className={styles.home__photo__image} />
+          <Image src={logo} alt='Ulises Montenegro' className={styles.home__photo__image} priority />
         </div>
       </div>
     </div>

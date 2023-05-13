@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
 
         <div className={styles.navbar__icon} onClick={() => setMenu(!menu)}>
-          <i className={menu ? 'fas fa-times fa-2x' : 'fas fa-bars fa-2x'} />
+          <i aria-hidden className={menu ? 'fas fa-times fa-2x' : 'fas fa-bars fa-2x'} />
         </div>
 
         <ul className={menu ? `${styles.navbar__menu} ${styles.active}` : `${styles.navbar__menu}`}>

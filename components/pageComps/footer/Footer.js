@@ -8,13 +8,13 @@ const Footer = () => {
       <div className={styles.footer__social}>
         <div className={styles.footer__social__container}>
           <a href='https://www.linkedin.com/in/ulisesmontenegro/' target='_Blank' className={styles.footer__social__item} rel='noreferrer'>
-            <i className='fab fa-linkedin fa-2x' />
+            <i aria-hidden className='fab fa-linkedin fa-2x' />
           </a>
           <a href='https://github.com/Ulise22' target='_Blank' className={styles.footer__social__item} rel='noreferrer'>
-            <i className='fab fa-github fa-2x' />
+            <i aria-hidden className='fab fa-github fa-2x' />
           </a>
           <a href='mailto:ulimontenegro23@gmail.com' className={styles.footer__social__item}>
-            <i className='fas fa-envelope fa-2x' />
+            <i aria-hidden className='fas fa-envelope fa-2x' />
           </a>
         </div>
       </div>
