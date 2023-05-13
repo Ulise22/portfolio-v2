@@ -45,7 +45,7 @@ function App({ Component , pageProps  }) {
                 children: [
                     /*#__PURE__*/ jsx_runtime.jsx("link", {
                         rel: "icon",
-                        href: "../components/images/logo.png"
+                        href: "../public/favicon.ico"
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("title", {
                         children: "Ulises Montenegro"

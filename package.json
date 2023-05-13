@@ -15,11 +15,14 @@
     "sharp": "^0.32.1",
     "web-vitals": "^2.1.4"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "next",
     "lint": "eslint .",
     "start": "next start",
-    "build": "next build --output public",
+    "build": "next build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
