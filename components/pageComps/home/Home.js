@@ -3,6 +3,7 @@ import logo from './../../images/logo.png'
 import styles from './Home.module.css'
 import { FormattedMessage } from 'react-intl'
 import Image from 'next/image'
+//  import cv from '../../../public/ulises-montenegro-resume.pdf'
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
             <a href='https://github.com/Ulise22' target='_Blank' className={styles.home__info__icons__item} rel='noreferrer'><i aria-hidden className='fab fa-github fa-3x' /> </a>
             <a href='https://www.linkedin.com/in/ulisesmontenegro/' target='_Blank' className={styles.home__info__icons__item} rel='noreferrer'><i aria-hidden className='fab fa-linkedin fa-3x' /> </a>
             <a href='mailto:ulimontenegro23@gmail.com' className={styles.home__info__icons__item}><i aria-hidden className='fas fa-envelope fa-3x' /> </a>
-
+            <a href="./ulises-montenegro-resume.pdf" download className={styles.home__info__btn} title='cv' >CV</a>
           </div>
         </div>
 
