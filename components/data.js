@@ -1,7 +1,7 @@
 import adv from './images/web-images/advice-generator.jpeg'
 import eCommerce from './images/web-images/e-commerce.jpeg'
 import weather from './images/web-images/weather.jpeg'
-import atalanta from './images/web-images/atalanta.jpeg'
+import dyj from './images/web-images/dyjfanpage.jpeg'
 import searcher from './images/web-images/images-searcher.jpeg'
 import space from './images/web-images/space-tourism.jpeg'
 
@@ -34,13 +34,13 @@ export const data = [
     descEs: 'Consumí la API de OpenWeather para hacer una aplicacion completamente responsiva y funcional sobre el clima con React.'
   },
   {
-    name: 'Atalanta WebPage',
+    name: 'Defensa y Justicia Fanpage',
     id: 4,
-    image: atalanta,
-    visit: 'https://atalanta-web-page.vercel.app/',
-    github: 'https://github.com/Ulise22/atalanta-v1',
-    descEn: "I've made a webpage from the football team Atalanta BC. I used the Wouter API to make a beautiful multi page web fully responsive.",
-    descEs: 'Hice una página web sobre el club de fútbol Atalanta BC. Use la API de Wouter para armar una web multi página.'
+    image: dyj,
+    visit: 'https://defensa-y-justicia-fanpage.vercel.app/',
+    github: 'https://github.com/Ulise22/defensa-y-justicia-fanpage',
+    descEn: "I've made a webpage from the football team Defensa y Justicia with Next13 to facilitate the creation of directories.",
+    descEs: 'Hice una página del club Defensa y Justicia utilizando Next13 para facilitar la creación de directorios.'
   },
   {
     name: 'Advice Generator',
