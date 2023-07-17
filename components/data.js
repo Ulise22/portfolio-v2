@@ -1,7 +1,7 @@
 import adv from './images/web-images/advice-generator.jpeg'
 import eCommerce from './images/web-images/e-commerce.jpeg'
 import weather from './images/web-images/weather.jpeg'
-import dyj from './images/web-images/dyjfanpage.jpeg'
+import dyj from './images/web-images/dyjapp.jpeg'
 import searcher from './images/web-images/images-searcher.jpeg'
 import space from './images/web-images/space-tourism.jpeg'
 
