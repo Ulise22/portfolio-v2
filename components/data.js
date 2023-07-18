@@ -21,8 +21,8 @@ export const data = [
     image: space,
     visit: 'https://space-tourism-two-jet.vercel.app/',
     github: 'https://github.com/Ulise22/space-tourism',
-    descEn: 'Completed the Frontend Mentor challenge using Nextjs, also used the Figma file provided for the page to make the web design as close possible to the original one, both in desktop and in mobile device.',
-    descEs: 'Complete el reto de Frontend Mentor usando Nextjs, también usé el documento de Figma proporcionado por la página para hacer que el diseño de la web se vea lo más cercano posible al original, tanto en escritorio como en móvil.'
+    descEn: 'Completed the Frontend Mentor challenge using Nextjs. Used the Figma file provided for the page to make the web design as close possible to the original one, both in desktop and in mobile device.',
+    descEs: 'Complete el reto de Frontend Mentor usando Nextjs. Usé el documento de Figma proporcionado por la página para hacer que el diseño de la web se vea lo más cercano posible al original, tanto en escritorio como en móvil.'
   },
   {
     name: 'Weather App',
@@ -37,10 +37,10 @@ export const data = [
     name: 'Defensa y Justicia Fanpage',
     id: 4,
     image: dyj,
-    visit: 'https://defensa-y-justicia-fanpage.vercel.app/',
-    github: 'https://github.com/Ulise22/defensa-y-justicia-fanpage',
-    descEn: "I've made a webpage from the football team Defensa y Justicia with Next13 to facilitate the creation of directories.",
-    descEs: 'Hice una página del club Defensa y Justicia utilizando Next13 para facilitar la creación de directorios.'
+    visit: 'https://dyj-fanpage.vercel.app/',
+    github: 'https://github.com/Ulise22/dyj-fanpage',
+    descEn: "I've made a webpage from the football team Defensa y Justicia with Next13 to facilitate the creation of directories. Also i've created an e-commerce inside the app implementing Redux.",
+    descEs: 'Hice una página del club social y deportivo Defensa y Justicia utilizando Next13 para facilitar la creación de directorios. Además creé una e-commerce dentro de la app implementado Redux.'
   },
   {
     name: 'Advice Generator',
@@ -49,7 +49,7 @@ export const data = [
     visit: 'https://advice-generator-app-fawn.vercel.app/',
     github: 'https://github.com/Ulise22/advice-generator-app',
     descEn: 'Made the Advice-Generator-App Frontend Mentor Challenge fully functional and responsive. Consuming the AdviceSlipt restful API.',
-    descEs: "Completé el reto de 'Frontend Mentor' haciendo un Generador de consejos completamente funcional y responsivo para dispositivos móbiles. Todo consumiendo la Api de AdviceSplipt"
+    descEs: "Completé el reto de 'Frontend Mentor' haciendo un Generador de consejos completamente funcional y responsivo para dispositivos móbiles. Todo consumiendo la Api de AdviceSplipt."
   },
   {
     name: 'Images Searcher App',
